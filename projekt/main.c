@@ -20,7 +20,7 @@ int main( void ) {
 // -------- Inicjacja --------- //
     DDRB = 0xff; /* Wszystkie piny z diodami LED ustaw jako wyjscia */
 // ------ petla zdarzen ------ //
-    while ( 1 ) { /* pŕtla g│ˇwna */
+    while ( 1 ) { /* petla glowna */
         POVDisplay( 0b00001110 );
         POVDisplay( 0b00011000 );
         POVDisplay( 0b10111101 );
