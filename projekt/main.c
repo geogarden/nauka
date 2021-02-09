@@ -6,7 +6,7 @@
  */
 // podstawa programów demonstracyjnych //
 // wykorzystujących bezwładnośc wzroku //
-// ------- Preambu│a -------- //
+// ------- Preambula -------- //
 
 #include <avr/io.h>
 #include <util/delay.h>
