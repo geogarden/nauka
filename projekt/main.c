@@ -1,16 +1,13 @@
 /*
  * main.c
- *
  *  Created on: 8 lut 2021
  *      Author: geoga
  */
 // podstawa programów demonstracyjnych //
 // wykorzystujących bezwładnośc wzroku //
 // ------- Preambula -------- //
-
 #include <avr/io.h>
 #include <util/delay.h>
-
 // -------- Funkcje --------- //
 void POVDisplay( uint8_t oneByte ) {
     PORTB = oneByte;
